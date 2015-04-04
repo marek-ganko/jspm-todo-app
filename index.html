@@ -1,0 +1,24 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Todo app</title>
+    <meta name="description" content="Todo app">
+
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="jspm_packages/system.js"></script>
+    <script src="config.js"></script>
+    <script src="todo-systemjs.js"></script>
+    <script src="todo-systemjs.js.map"></script>
+
+    <script>
+        var app = angular.module('app', ['TodoModules']);
+    </script>
+</head>
+
+<body ng-app="app">
+<div>
+    <todo-list></todo-list>
+</div>
+</body>
+</html>
+
