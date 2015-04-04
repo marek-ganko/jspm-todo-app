@@ -1,5 +1,5 @@
 # Todo application using non-sfx jspm bundle
-# to create such module use jspm init
+### jspm init used to create application setup
 
 1. `npm install -g bower`
 
@@ -8,3 +8,4 @@
 3. `bower install`
 
 4. `browser-sync`
+
