@@ -1,11 +1,11 @@
 System.config({
-  "baseURL": "/jspm-todo-app",
+  "baseURL": "./",
   "transpiler": "babel",
   "paths": {
     "*": "*.js",
     "github:*": "jspm_packages/github/*.js",
-    "npm:*": "jspm_packages/npm/*.js"
-
+    "npm:*": "jspm_packages/npm/*.js",
+    "todo-module": "bower_components/jspm-todo-module/dist/todo-systemjs.js"
   },
   "babelOptions": {
     "optional": [
@@ -16,7 +16,6 @@ System.config({
 
 System.config({
   "map": {
-    "todo": "todo-systemjs",
     "angular": "github:angular/bower-angular@1.3.15",
     "babel": "npm:babel@4.7.16",
     "babel-runtime": "npm:babel-runtime@4.7.16",

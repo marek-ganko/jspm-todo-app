@@ -1,0 +1,9 @@
+{
+  "name": "jspm-todo-app",
+  "version": "0.0.0",
+  "main": "index.html",
+  "description": "Todo app",
+  "dependencies": {
+    "jspm-todo-module": "*"
+  }
+}

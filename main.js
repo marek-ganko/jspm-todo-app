@@ -1,5 +1,5 @@
 import 'angular';
-import todoModule from 'todo-systemjs';
+import todoModule from 'todo-module';
 
 var app = angular.module('app', ["TodoModules"]);
 

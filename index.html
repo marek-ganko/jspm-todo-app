@@ -4,19 +4,20 @@
     <title>Todo app</title>
     <meta name="description" content="Todo app">
     <link href="style.css"/>
-    <script src="jspm_packages/system.js"></script>
-    <script src="config.js"></script>
 </head>
 
 <body >
 <div>
-    <todo-list></todo-list>
+    <todo></todo>
 </div>
 
+<script src="jspm_packages/system.js"></script>
+<script src="config.js"></script>
+<script src="bower_components/angular/angular.js"></script>
+
 <script>
-    System.import('main');
+    System.import('main').catch(console.error.bind(console));
 </script>
 
 </body>
 </html>
-
