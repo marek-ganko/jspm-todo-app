@@ -1,8 +1,4 @@
-import 'angular';
-import todoModule from 'todo-module';
-
-var app = angular.module('app', ["TodoModules"]);
-
+var app = angular.module('app', ["todoModules"]);
 angular.element(document).ready(function () {
     angular.bootstrap(document, [app.name]);
 });
